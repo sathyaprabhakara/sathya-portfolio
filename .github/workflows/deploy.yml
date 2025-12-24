@@ -4,6 +4,12 @@ on:
   push:
     branches: [ main ]
 
+# Grant the workflow explicit permissions so the deploy action can push to gh-pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -11,6 +17,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # prevent checkout from overriding the token used by the deploy action
+          persist-credentials: false
 
       - name: Setup Node
         uses: actions/setup-node@v4
