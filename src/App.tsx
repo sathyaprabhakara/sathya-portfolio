@@ -8,7 +8,8 @@ import Self from './pages/Self'
 
 function App() {
   return (
-    <Router>
+    // Use basename so routes work when site is served from /sathya-portfolio/
+    <Router basename="/sathya-portfolio">
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
