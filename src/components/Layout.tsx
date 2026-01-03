@@ -19,22 +19,22 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div className="app">
-      <div className="app-container">
-        <header className="header">
-          <nav className="nav">
-            <Link to="/" className="site-name">Sathya</Link>
-            <div className="nav-links">
-              <Link to="/work" className={location.pathname === '/work' ? 'active' : ''}>My Work</Link>
-              <Link to="/self" className={location.pathname === '/self' ? 'active' : ''}>My Self</Link>
-              <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>My Resume</Link>
-            </div>
-            <button className="sidebar-toggle" onClick={toggleSidebar} aria-label="Toggle sidebar">
-              <span></span>
-              <span></span>
-            </button>
-          </nav>
-        </header>
+      <header className="header">
+        <nav className="nav">
+          <Link to="/" className="site-name">Sathya</Link>
+          <div className="nav-links">
+            <Link to="/work" className={location.pathname === '/work' ? 'active' : ''}>My Work</Link>
+            <Link to="/self" className={location.pathname === '/self' ? 'active' : ''}>My Self</Link>
+            <Link to="/resume" className={location.pathname === '/resume' ? 'active' : ''}>My Resume</Link>
+          </div>
+          <button className="sidebar-toggle" onClick={toggleSidebar} aria-label="Toggle sidebar">
+            <span></span>
+            <span></span>
+          </button>
+        </nav>
+      </header>
 
+      <div className="app-container">
         <main className="main">
           {children}
         </main>
@@ -89,7 +89,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p className="copyright">© Sathya P 2025</p>
+          <p className="copyright">© Sathya P 2026</p>
           <div className="footer-social-links">
             <a 
               href="https://github.com/sathyaprabhakara"

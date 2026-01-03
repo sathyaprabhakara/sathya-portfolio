@@ -13,12 +13,10 @@
 }
 
 .header {
-  padding: 2rem 0;
+  padding: 2rem;
   border-bottom: none;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .nav {
@@ -26,16 +24,19 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .site-name {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #5C2D91;
   text-decoration: none;
   transition: opacity 0.2s;
   white-space: nowrap;
   letter-spacing: -0.01em;
+  flex-shrink: 0;
 }
 
 .site-name:hover {
@@ -45,6 +46,7 @@
 .nav-links {
   display: flex;
   gap: 2rem;
+  margin-left: auto;
 }
 
 .nav-links a {
@@ -296,10 +298,11 @@
 }
 
 .footer-bottom .copyright {
-  color: #FFFFFF;
+  color: #80FF00;
 }
 
 .footer-bottom .footer-social-links {
+  color: #80FF00;
   display: flex;
   gap: 1.5rem;
 }
@@ -931,4 +934,139 @@
   .resume-content {
     padding: 1rem;
   }
+}
+
+/* Projects grid: aim for 3 columns on desktop, responsive down */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-color: rgba(92,45,145,0.12);
+}
+
+.project-card img { max-width: 100%; height: auto; }
+.project-card-title { font-size: 1.25rem; margin: 0.5rem 0; font-weight: 600 }
+.project-card-company { color: #5C2D91; font-weight: 500; margin-bottom: 0.25rem }
+.project-card-brief { color: #555; font-size: 0.95rem; line-height: 1.5 }
+
+@media (max-width: 980px) {
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .projects-grid { grid-template-columns: 1fr; }
+}
+
+/* Project Detail Highlights */
+.nav-back-button {
+  background-color: transparent;
+  border: none;
+  color: #5C2D91;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  background-color: rgba(92, 45, 145, 0.08);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-back-button:hover {
+  background-color: rgba(92, 45, 145, 0.15);
+  transform: scale(1.05);
+}
+
+.project-detail-achievements {
+  margin-top: 2rem;
+}
+
+.project-detail-achievements h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.achievements-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.achievement-item {
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.achievement-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #5C2D91;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.achievement-item p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.achievement-item strong {
+  color: #5C2D91;
+  font-weight: 600;
+  background-color: rgba(92, 45, 145, 0.08);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+/* Checkout Section */
+.project-checkout {
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.project-checkout h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.checkout-link {
+  display: inline-block;
+  color: #5C2D91;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(92, 45, 145, 0.08);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(92, 45, 145, 0.2);
+}
+
+.checkout-link:hover {
+  background-color: rgba(92, 45, 145, 0.15);
+  border-color: #5C2D91;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 45, 145, 0.15);
 }

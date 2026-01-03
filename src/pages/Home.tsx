@@ -7,24 +7,20 @@ export default function Home() {
         </h1>
         <div className="hero-content">
           <p>
-            A Full Stack Developer with over 3 years of experience in the banking industry, 
-            skilled in web development. My work spans backend engineering, frontend development, 
-            and full-stack architecture, which has shaped how I think about building scalable 
-            and resilient systems.
+            <strong>Full-stack software engineer</strong> with <strong>3+ years</strong> of experience building <strong>scalable, distributed systems</strong> in high-compliance environments. Strong background across <strong>backend</strong>,
+            <strong>frontend</strong>, and <strong>system design</strong>, with a focus on <strong>reliability</strong>, <strong>performance</strong>, and <strong>clean architecture</strong>.
           </p>
           <p>
-            Currently, I work at <strong>Societe Generale GSC</strong> in Bengaluru, where I 
-            primarily focus on developing risk and compliance management systems. I contribute 
-            to high-impact projects like <strong>MyCyberRisk</strong> and <strong>MyKRI</strong>, 
-            implementing comprehensive solutions that ensure code quality with over 90% coverage 
-            and automated testing protocols.
+            Currently at <strong>Société Générale GSC (Bengaluru)</strong>, working on enterprise-scale risk and 
+            cybersecurity platforms (<strong>MyCyberRisk</strong>, <strong>MyKRI</strong>) that process and remediate critical business 
+            signals. Led development across <strong>microservices</strong>, <strong>workflow engines</strong>, and <strong>data pipelines</strong>, 
+            delivering <strong>90%+ automated test coverage</strong> and enforcing strong <strong>code-quality</strong> standards.
           </p>
           <p>
-            I specialize in technologies such as <strong>Spring Boot</strong>, <strong>React</strong>, 
-            <strong>TypeScript</strong>, and <strong>PostgreSQL</strong>, with expertise in CI/CD 
-            pipelines using <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>Jenkins</strong>. 
-            I also leverage AI-powered tools like GitHub Copilot to enhance productivity and accelerate 
-            development cycles.
+            Proficient in <strong>Java (Spring Boot)</strong>, <strong>React</strong>, <strong>TypeScript</strong>, and <strong>PostgreSQL</strong>, with hands-on
+             experience in <strong>containerized deployments</strong> and <strong>CI/CD pipelines</strong> using <strong>Docker</strong>, <strong>Kubernetes</strong>, 
+             and <strong>Jenkins</strong>. Leverage <strong>AI-assisted development (GitHub Copilot)</strong> to improve development 
+             velocity while maintaining production-grade quality and observability.
           </p>
           <p>
             If you have a question or proposal, or just want to say hello, feel free to{' '}
