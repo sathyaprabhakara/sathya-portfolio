@@ -47,6 +47,7 @@ export default function Layout({ children }: LayoutProps) {
           ×
         </button>
         <nav className="sidebar-nav">
+          <Link to="/" onClick={closeSidebar}>Home</Link>
           <Link to="/work" onClick={closeSidebar}>My Work</Link>
           <Link to="/self" onClick={closeSidebar}>My Self</Link>
           <Link to="/resume" onClick={closeSidebar}>My Resume</Link>

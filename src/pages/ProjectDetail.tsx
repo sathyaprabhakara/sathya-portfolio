@@ -8,7 +8,7 @@ export default function ProjectDetail() {
     p1: {
       title: 'AI Song & Poem Generator',
       subtitle: 'Creative AI Content Generation',
-      period: '2024',
+      period: '2025',
       technologies: ['Node.js', 'Express.js', 'TypeScript', 'Ollama', 'phi3:mini', 'RESTful API', 'JSON'],
       description: 'An AI-powered application that generates custom poems and songs from user prompts.',
       details: [
@@ -22,7 +22,7 @@ export default function ProjectDetail() {
     p2: {
       title: 'AI News Agent',
       subtitle: 'Autonomous AI Content Pipeline',
-      period: '2024',
+      period: '2025',
       technologies: ['Python', 'OpenAI', 'GPT-4o-mini', 'RSS Feeds', 'SQLite', 'Tweepy', 'Twitter API', 'SMTP', 'GitHub Actions', 'Cron'],
       description: 'Agent that generates a concise tweet using OpenAI and posts it to Twitter (X), and emails the tweet.',
       details: [
@@ -36,7 +36,7 @@ export default function ProjectDetail() {
     p3: {
       title: 'LifeLoop',
       subtitle: 'Loop-based Social App',
-      period: '2024',
+      period: '2025',
       technologies: ['React Native', 'TypeScript', 'Expo', 'React Navigation', 'AsyncStorage', 'Expo Camera', 'Media Library', 'Firebase'],
       description: 'Cross-platform social app prioritizing real-time, chronological loop-based storytelling with short multimedia clips.',
       details: [

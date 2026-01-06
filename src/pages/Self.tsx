@@ -25,19 +25,19 @@ export default function Self() {
           <div className="shelf-items">
             <div className="shelf-item">
               <h3>Languages</h3>
-              <p>Java, TypeScript, JavaScript</p>
+              <p>Java, TypeScript, JavaScript, SQL</p>
             </div>
             <div className="shelf-item">
               <h3>Frameworks</h3>
-              <p>Spring Boot, React, JPA</p>
+              <p>Spring Boot, React, Vite</p>
             </div>
              <div className="shelf-item">
               <h3>CI/CD</h3>
-              <p>Docker, Kubernetes, Jenkins</p>
+              <p>Docker, Kubernetes, Jenkins, Github actions</p>
             </div>
             <div className="shelf-item">
               <h3>Tools</h3>
-              <p>Git, GitHub, PostgreSQL, Sonar, Airflow batches, JIRA</p>
+              <p>GitHub, Sonar, Airflow batches, JIRA</p>
             </div>
             <div className="shelf-item">
               <h3>Testing Tools</h3>
@@ -45,7 +45,7 @@ export default function Self() {
             </div>
             <div className="shelf-item">
               <h3>AI Tools</h3>
-              <p>GitHub Copilot, Cursor, Hugging Face, Vertex AI, LangChain</p>
+              <p>GitHub Copilot, Cursor, Hugging Face, Vertex AI, LangChain, NotebookLM, Lovable</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function Work() {
          <p className="work-period">November 2022 - February 2025</p>
          <ul className="work-list">
            <li>
-             <strong>Designed and built a centralized platform to ingest,</strong> classify, and remediate cybersecurity anomalies across
+             <strong>Designed and built a centralized platform to ingest,</strong> classify and remediate cybersecurity anomalies across
              multiple security controls, providing end-to-end visibility and lifecycle tracking.
            </li>
            <li>
@@ -18,10 +18,10 @@ export default function Work() {
            </li>
            <li>
              <strong>Engineered scalable ingestion and enrichment pipelines</strong> (push/pull, validation, staging, caching) to
-             normalize high-volume security events and link them to people, applications, and infrastructure.
+             normalize high-volume security events and link them to people, applications and infrastructure.
            </li>
            <li>
-             <strong>Built a type-safe runtime and integration layer</strong> supporting dynamic rule evaluation (SpEL), asynchronous messaging <strong>(RabbitMQ), </strong>
+             <strong>Built a type-safe runtime and integration layer</strong> supporting dynamic rule evaluation (SpEL), asynchronous messaging <strong>(RabbitMQ) </strong>
              and REST-based coordination with external security systems.
            </li>
            <li>
@@ -30,7 +30,7 @@ export default function Work() {
            </li>
            <li>
              <strong>Improved code quality and delivery velocity by leveraging AI-assisted development tools (GitHub Copilot), </strong>
-             implementing automated testing <strong>(JUnit, FitNesse, Cypress)</strong>, and enforcing static analysis and quality gates via <strong>SonarQube</strong>.
+             implementing automated testing <strong>(JUnit, FitNesse, Cypress)</strong> and enforcing static analysis and quality gates via <strong>SonarQube</strong>.
            </li>
          </ul>
        </div>
@@ -45,20 +45,20 @@ export default function Work() {
              enabling early detection of risk escalation across large-scale enterprise systems.
            </li>
            <li>
-             <strong>Designed and implemented backend services</strong> using <strong>Java, Spring Boot, PostgreSQL, and MyBatis</strong>,
-             supporting high-throughput data processing, batch jobs, and complex aggregation workflows.
+             <strong>Designed and implemented backend services</strong> using <strong>Java, Spring Boot, PostgreSQL and MyBatis</strong>,
+             supporting high-throughput data processing, batch jobs and complex aggregation workflows.
            </li>
            <li>
              <strong>Deployed and operated services on Kubernetes</strong>, improving system availability,
-              scalability, and fault isolation across multiple environments.
+              scalability and fault isolation across multiple environments.
            </li>
            <li>
              <strong>Developed REST APIs and React-based UI</strong> to manage end-to-end lifecycle of risk metrics, including template-driven creation,
-             bulk updates, and entity-level instantiation.
+             bulk updates and entity-level instantiation.
            </li>
            <li>
-             <strong>Strengthened system reliability, security, and observability</strong> through <strong>OAuth2-based authentication (ForgeRock),
-              ELK/APM monitoring</strong>, optimized connection pooling <strong>(HikariCP)</strong>, and object storage integration <strong>(S3)</strong>.
+             <strong>Strengthened system reliability, security and observability</strong> through <strong>OAuth2-based authentication (ForgeRock),
+              ELK/APM monitoring</strong>, optimized connection pooling <strong>(HikariCP)</strong> and object storage integration <strong>(S3)</strong>.
            </li>
          </ul>
        </div>

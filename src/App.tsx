@@ -1,16 +1,18 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
+
 import Home from './pages/Home'
 import Work from './pages/Work'
 import Resume from './pages/Resume'
-import './App.css'
 import Self from './pages/Self'
 import ProjectDetail from './pages/ProjectDetail'
+import './App.css'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
-    // Use basename so routes work when site is served from /sathya-portfolio/
     <Router basename="/sathya-portfolio">
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
