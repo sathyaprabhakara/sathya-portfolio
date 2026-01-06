@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .app-container {
@@ -31,7 +31,7 @@
 .site-name {
   font-size: 2rem;
   font-weight: 700;
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: none;
   transition: opacity 0.2s;
   white-space: nowrap;
@@ -87,7 +87,7 @@
 .sidebar-toggle span {
   width: 20px;
   height: 2px;
-  background: #5C2D91;
+  background: #5c2d91;
   transition: all 0.3s;
   border-radius: 1px;
 }
@@ -95,7 +95,7 @@
 .main {
   flex: 1;
   padding: 4rem 0;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 2rem;
@@ -139,7 +139,7 @@
 }
 
 .contact-link {
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -186,11 +186,10 @@
   margin-top: 1.5rem;
 }
 
-
 .footer {
   padding: 4rem 2rem 2rem 2rem;
-  background-color: #5C2D91;
-  color: #FFFFFF;
+  background-color: #5c2d91;
+  color: #ffffff;
   margin-top: 4rem;
   width: 100vw;
   max-width: 100vw;
@@ -225,11 +224,11 @@
 }
 
 .footer > * {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -246,7 +245,7 @@
 }
 
 .social-link {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 500;
@@ -258,7 +257,7 @@
 }
 
 .copyright {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 0.875rem;
   margin: 0 0 0.5rem 0;
 }
@@ -278,7 +277,7 @@
 }
 
 .footer-section h3 {
-  color: #80FF00;
+  color: #80ff00;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -287,7 +286,7 @@
 }
 
 .footer-section a {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 0.875rem;
   text-decoration: none;
   transition: opacity 0.2s;
@@ -298,17 +297,17 @@
 }
 
 .footer-bottom .copyright {
-  color: #80FF00;
+  color: #80ff00;
 }
 
 .footer-bottom .footer-social-links {
-  color: #80FF00;
+  color: #80ff00;
   display: flex;
   gap: 1.5rem;
 }
 
 .footer-bottom .footer-social-links a {
-  color: #80FF00;
+  color: #80ff00;
   text-decoration: none;
   font-size: 0.875rem;
 }
@@ -439,7 +438,7 @@
 }
 
 .work-list li::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
   color: #000;
@@ -512,7 +511,7 @@
 }
 
 .shelf-list li::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
   color: #000;
@@ -527,7 +526,7 @@
   display: grid;
   grid-template-columns: 250px 1fr;
   gap: 3rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 4px;
 }
@@ -610,7 +609,7 @@
 }
 
 .resume-tech-list li::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
   color: #000;
@@ -625,7 +624,7 @@
 }
 
 .resume-section-title.experience-title {
-  color: #0066CC;
+  color: #0066cc;
 }
 
 .resume-contact p {
@@ -635,7 +634,7 @@
 }
 
 .resume-contact a {
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -711,7 +710,7 @@
 }
 
 .project ul li::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
   color: #000;
@@ -785,7 +784,7 @@
   right: -400px;
   width: 400px;
   height: 100vh;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
   z-index: 999;
   transition: right 0.3s ease;
@@ -805,7 +804,7 @@
   background: none;
   border: none;
   font-size: 2rem;
-  color: #5C2D91;
+  color: #5c2d91;
   cursor: pointer;
   padding: 0;
   width: 32px;
@@ -827,7 +826,7 @@
 }
 
 .sidebar-nav a {
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: none;
   font-size: 1rem;
   transition: opacity 0.2s;
@@ -854,7 +853,7 @@
 }
 
 .sidebar-contact a {
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: none;
   font-size: 0.875rem;
   transition: opacity 0.2s;
@@ -884,17 +883,16 @@
 
 /* Resume Styling Updates */
 .purple-title {
-  color: #5C2D91 !important;
+  color: #5c2d91 !important;
 }
 
 .purple-name {
-  color: #5C2D91 !important;
+  color: #5c2d91 !important;
 }
-
 
 .experience-item h4,
 .project h5 {
-  color: #5C2D91 !important;
+  color: #5c2d91 !important;
 }
 
 @media (max-width: 768px) {
@@ -955,28 +953,47 @@
 
 .project-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  border-color: rgba(92,45,145,0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(92, 45, 145, 0.12);
 }
 
-.project-card img { max-width: 100%; height: auto; }
-.project-card-title { font-size: 1.25rem; margin: 0.5rem 0; font-weight: 600 }
-.project-card-company { color: #5C2D91; font-weight: 500; margin-bottom: 0.25rem }
-.project-card-brief { color: #555; font-size: 0.95rem; line-height: 1.5 }
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+.project-card-title {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+.project-card-company {
+  color: #5c2d91;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+.project-card-brief {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
 
 @media (max-width: 980px) {
-  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
-  .projects-grid { grid-template-columns: 1fr; }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Project Detail Highlights */
 .nav-back-button {
   background-color: transparent;
   border: none;
-  color: #5C2D91;
+  color: #5c2d91;
   font-weight: 700;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -1015,10 +1032,10 @@
 }
 
 .achievement-item::before {
-  content: '•';
+  content: "•";
   position: absolute;
   left: 0;
-  color: #5C2D91;
+  color: #5c2d91;
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -1031,7 +1048,7 @@
 }
 
 .achievement-item strong {
-  color: #5C2D91;
+  color: #5c2d91;
   font-weight: 600;
   background-color: rgba(92, 45, 145, 0.08);
   padding: 0.2rem 0.4rem;
@@ -1053,7 +1070,7 @@
 
 .checkout-link {
   display: inline-block;
-  color: #5C2D91;
+  color: #5c2d91;
   text-decoration: none;
   font-weight: 600;
   padding: 0.75rem 1.5rem;
@@ -1065,7 +1082,7 @@
 
 .checkout-link:hover {
   background-color: rgba(92, 45, 145, 0.15);
-  border-color: #5C2D91;
+  border-color: #5c2d91;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(92, 45, 145, 0.15);
 }

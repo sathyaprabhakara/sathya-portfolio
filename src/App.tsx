@@ -1,13 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Layout from './components/Layout'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
 
-import Home from './pages/Home'
-import Work from './pages/Work'
-import Resume from './pages/Resume'
-import Self from './pages/Self'
-import ProjectDetail from './pages/ProjectDetail'
-import './App.css'
-import ScrollToTop from './components/ScrollToTop'
+import Home from "./pages/Home";
+import Work from "./pages/Work";
+import Resume from "./pages/Resume";
+import Self from "./pages/Self";
+import ProjectDetail from "./pages/ProjectDetail";
+import "./App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         </Routes>
       </Layout>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
