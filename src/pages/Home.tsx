@@ -21,7 +21,7 @@ export default function Home() {
             <strong>MyCyberRisk</strong>, <strong>MyKRI</strong>) that process
             and remediate critical business signals. Led development across{" "}
             <strong>microservices</strong>, <strong>workflow engines</strong>{" "}
-            and <strong>data pipelines</strong>
+            and <strong>data pipelines </strong>
             delivering <strong>90%+ automated test coverage</strong> and
             enforcing strong <strong>code-quality</strong> standards.
           </p>
@@ -31,11 +31,28 @@ export default function Home() {
             <strong>PostgreSQL</strong>, with hands-on experience in{" "}
             <strong>containerized deployments</strong> and{" "}
             <strong>CI/CD pipelines</strong> using <strong>Docker</strong>,{" "}
-            <strong>Kubernetes</strong>
+            <strong>Kubernetes </strong>
             and <strong>Jenkins</strong>. Leverage{" "}
             <strong>AI-assisted development (GitHub Copilot)</strong> to improve
             development velocity while maintaining production-grade quality and
             observability.
+          </p>
+          <p>
+            Actively expanding into <strong>AI engineering</strong>, building
+            production-oriented projects spanning <strong>RAG pipelines</strong>,{" "}
+            <strong>autonomous agents</strong>,{" "}
+            <strong>local LLM inference</strong>, and{" "}
+            <strong>hyperlocal AI backends</strong>. Developed end-to-end systems
+            integrating <strong>LangChain</strong>, <strong>ChromaDB</strong>,{" "}
+            <strong>FastAPI</strong>, <strong>Ollama</strong>, and{" "}
+            <strong>OpenAI APIs</strong>, applying the same architectural
+            discipline from enterprise work to AI-native applications.
+            Comfortable bridging traditional backend engineering with modern AI
+            stacks from <strong>JWT-secured Spring Boot services</strong> to{" "}
+            <strong>vector-search-powered retrieval systems</strong>. Driven by a
+            practical, systems-first approach to AI: building tools that are{" "}
+            <strong>modular</strong>, <strong>observable</strong>, and{" "}
+            <strong>production-deployable from day one</strong>.
           </p>
           <p>
             If you have a question or proposal, or just want to say hello, feel

@@ -2,6 +2,9 @@ import { useNavigate } from "react-router-dom";
 import songImg from "../assets/ai-song.png";
 import newsImg from "../assets/ai-news.png";
 import lifeloopImg from "../assets/lifeloop.png";
+import creatorhubImg from "../assets/creatorhub.png";
+import chatbotImg from "../assets/aidocumentchatbot.png";
+import bangalorebyteImg from "../assets/banglorebyte.png";
 
 export default function Self() {
   const navigate = useNavigate();
@@ -30,6 +33,30 @@ export default function Self() {
       brief:
         "LifeLoop is a revolutionary social media app that focuses on authentic, real-time shared moments through a loop-based storytelling system.",
       img: lifeloopImg,
+    },
+    {
+      id: "p4",
+      title: "CreatorHub",
+      subtitle: "",
+      brief:
+        "A production-ready backend powering a social content platform with secure authentication, post management, and real-time interactions.",
+      img: creatorhubImg,
+    },
+    {
+      id: "p5",
+      title: "BangaloreByte",
+      subtitle: "",
+      brief:
+        "An AI-powered hyperlocal backend that answers real-time city queries for Bengaluru — traffic, weather, and local events.",
+      img: bangalorebyteImg,
+    },
+    {
+      id: "p6",
+      title: "AI Document Chatbot",
+      subtitle: "",
+      brief:
+        "A fully local AI chatbot that lets you upload PDFs and ask questions about them using a complete Retrieval Augmented Generation pipeline.",
+      img: chatbotImg,
     },
   ];
 

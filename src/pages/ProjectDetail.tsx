@@ -78,6 +78,84 @@ export default function ProjectDetail() {
         "Optimized application performance and state management using <strong>React Context</strong> and <strong>AsyncStorage</strong> for low-latency local data handling, while designing a modular architecture ready for <strong>Firebase</strong> backend integration and global scaling.",
       ],
     },
+    p4: {
+      title: "CreatorHub",
+      subtitle: "Production-Ready Social Backend",
+      period: "2025",
+      technologies: [
+        "Java 17",
+        "Spring Boot",
+        "Spring Security",
+        "JWT",
+        "Google OAuth",
+        "BCrypt",
+        "PostgreSQL",
+        "Liquibase",
+        "Maven",
+        "Lombok",
+      ],
+      description:
+        "A production-ready backend powering a social content platform with secure authentication, post management, and real-time interactions.",
+      details: [
+        "Engineered a secure authentication system using <strong>Spring Security and JWT</strong>, supporting email/password login and <strong>Google OAuth</strong> via ID tokens with <strong>BCrypt</strong> password hashing and access/refresh token session management.",
+        "Architected a clean layered backend with controller, service, repository, DTO, and exception handling layers, ensuring modularity, testability, and long-term maintainability.",
+        "Implemented a <strong>PostgreSQL</strong> database with <strong>Liquibase</strong> for schema versioning and migration control, ensuring reliable and auditable database evolution across environments.",
+        "Developed core social platform features including image-upload posts, paginated feeds, likes, and comments — all secured behind authenticated API routes.",
+        "Optimized feed and comment scalability using pagination support, with <strong>Maven</strong> managing builds and <strong>Lombok</strong> reducing boilerplate across the codebase.",
+      ],
+    },
+    p5: {
+      title: "BangaloreByte",
+      subtitle: "Hyperlocal City Intelligence API",
+      period: "2025",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Ollama",
+        "phi3:mini",
+        "Redis",
+        "ChromaDB",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Docker",
+        "Cloud Run",
+      ],
+      description:
+        "An AI-powered hyperlocal backend that answers real-time city queries for Bengaluru — traffic, weather, and local events.",
+      details: [
+        "Architected a <strong>FastAPI</strong> backend with a Bangalore-grounded LLM system prompt using <strong>Ollama (phi3:mini)</strong>, enabling hyperlocal query answering with a witty, city-aware persona.",
+        "Engineered real ingestion fetchers for live weather, traffic heuristics, and weekly events, normalizing multi-source city signals into a unified retrieval context.",
+        "Implemented a <strong>CityRetriever</strong> abstraction layer that assembles contextual snippets to ground LLM answers, designed to swap seamlessly with <strong>Firestore</strong> vector search.",
+        "Developed <strong>Redis</strong>-backed query caching for hot questions with graceful fallback, reducing redundant LLM calls and improving response latency.",
+        "Containerized the service with a <strong>Dockerfile</strong> ready for <strong>Cloud Run</strong> deployment, paired with a lightweight <strong>React + Vite</strong> developer UI for prototyping and testing.",
+      ],
+    },
+    p6: {
+      title: "AI Document Chatbot",
+      subtitle: "RAG-Powered PDF Q&A",
+      period: "2025",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "Streamlit",
+        "LangChain",
+        "ChromaDB",
+        "Ollama",
+        "llama3",
+        "PyPDF",
+        "nomic-embed-text",
+      ],
+      description:
+        "A fully local AI chatbot that lets you upload PDFs and ask questions about them using a complete Retrieval Augmented Generation pipeline.",
+      details: [
+        "Engineered a complete <strong>RAG pipeline</strong> — from PDF ingestion and vector embedding to similarity search and LLM generation — using <strong>LangChain, ChromaDB</strong>, and <strong>Ollama (llama3)</strong> with zero cloud dependency.",
+        "Developed a <strong>FastAPI</strong> backend with RESTful endpoints for document upload, querying, listing, and database management, with full API documentation via <strong>Swagger</strong>.",
+        "Implemented intelligent text chunking (500-character chunks, 100-character overlap) and <strong>nomic-embed-text</strong> embeddings stored persistently in <strong>ChromaDB</strong> for accurate semantic retrieval.",
+        "Built a conversational <strong>Streamlit</strong> frontend with tabbed document upload, chat, and management interfaces for a seamless end-to-end user experience.",
+        "Designed a privacy-first, fully offline architecture — all models and data remain local after initial setup, with comprehensive error handling and structured logging throughout.",
+      ],
+    },
   };
 
   const project = projectId ? projectDetails[projectId] : null;
@@ -159,6 +237,12 @@ export default function ProjectDetail() {
                 ? "https://github.com/sathyaprabhakara/AI-News-Agent"
                 : projectId === "p3"
                 ? "https://github.com/sathyaprabhakara/LifeLoop"
+                : projectId === "p4"
+                ? "https://github.com/sathyaprabhakara/CreatorHub"
+                : projectId === "p5"
+                ? "https://github.com/sathyaprabhakara/BangloreByte"
+                : projectId === "p6"
+                ? "https://github.com/sathyaprabhakara/AI-Document-Chatbot"
                 : "#"
             }
             target="_blank"
