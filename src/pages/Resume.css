@@ -1,0 +1,83 @@
+.resume-page { padding: 44px 0 75px; }
+.resume-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 28px; }
+.resume-toolbar .eyebrow { margin: 0; }
+.resume-toolbar > div { display: flex; align-items: center; gap: 24px; }
+.resume-preview-link { font-size: 12px; color: var(--purple); }
+.resume-sheet { --resume-purple: #5936b4; background: #f4f0fc; border-top: 7px solid var(--resume-purple); box-shadow: 0 15px 65px #3620450a; }
+.resume-masthead { padding: 48px 54px 42px; }
+.resume-kicker { font: 10px monospace; letter-spacing: 2px; color: var(--resume-purple); margin-bottom: 20px; }
+.resume-masthead h1 { display: flex; align-items: center; justify-content: space-between; color: var(--resume-purple); font-size: clamp(58px, 7vw, 94px); letter-spacing: -5px; line-height: 1.05; font-weight: 700; }
+.resume-masthead h1 > span { font-size: 72px; font-weight: 400; color: #baa1df; }
+.resume-role { font-size: 24px; letter-spacing: -.5px; margin-top: 13px; }
+.resume-lead { max-width: 760px; font-size: 16px; line-height: 1.85; color: #655e73; margin-top: 24px; }
+.resume-body { display: grid; grid-template-columns: 30% minmax(0, 1fr); }
+.resume-sidebar { padding: 38px 32px 40px 44px; background: #eae2f6; }
+.resume-years { border-bottom: 1px solid #cec2df; padding-bottom: 26px; margin-bottom: 30px; }
+.resume-years strong { display: block; font-size: 56px; color: var(--resume-purple); letter-spacing: -3px; line-height: 1.2; }
+.resume-years strong > span { font-size: 25px; letter-spacing: -1px; }
+.resume-years p { font: 9px monospace; text-transform: uppercase; color: #655e73; letter-spacing: .7px; margin-top: 9px; }
+.resume-sidebar h2 { font-size: 16px; font-weight: 700; letter-spacing: -.2px; margin-bottom: 12px; color: var(--resume-purple); }
+.resume-contact-block h2 span, .resume-section-heading > span:first-child { background: linear-gradient(transparent 65%, #d8f397 65% 94%, transparent 94%); padding-right: 5px; }
+.resume-contact-block p, .resume-contact-block > a { font-size: 12px; overflow-wrap: anywhere; }
+.resume-contact-block > a { color: var(--resume-purple); }
+.resume-profile-links { display: flex; gap: 12px; flex-wrap: wrap; font-size: 11px; margin-top: 14px; color: var(--resume-purple); }
+.resume-skill-group { margin-top: 30px; }
+.resume-skill-group ul { margin: 0; padding: 0; list-style: none; color: #655e73; font-size: 12px; line-height: 1.9; }
+.resume-skill-group li::before { content: '▪'; color: #957ac1; padding-right: 7px; }
+.resume-story { padding: 38px 44px 32px; }
+.resume-section-heading { font-size: 21px; font-weight: 700; letter-spacing: -.4px; display: flex; justify-content: space-between; align-items: center; color: var(--resume-purple); margin-bottom: 26px; }
+.resume-section-index { font: 11px monospace; color: #a697b9; }
+.resume-employer { padding-bottom: 25px; }
+.resume-employer h3 { font-size: 20px; font-weight: 600; color: var(--resume-purple); }
+.resume-employer p { font-size: 13px; margin-top: 5px; }
+.resume-employer p > span { color: #655e73; }
+.resume-position { border-top: 1px solid #ded4eb; padding-top: 23px; margin-bottom: 29px; }
+.resume-position > div { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.resume-position h4 { font-size: 17px; margin: 0; font-weight: 600; }
+.resume-date { font-size: 10px; color: #655e73; text-align: right; }
+.resume-position-subtitle { color: var(--resume-purple); font-size: 12px; margin-top: 4px; }
+.resume-position ul { padding-left: 17px; margin: 16px 0 0; }
+.resume-position li { padding-left: 4px; margin-bottom: 12px; color: #655e73; font-size: 13px; line-height: 1.8; }
+.resume-position li::marker { color: var(--resume-purple); }
+.resume-selected { border-top: 1px solid #ded4eb; padding-top: 25px; }
+.resume-build { margin-bottom: 24px; }
+.resume-build > a { color: var(--resume-purple); font-size: 16px; font-weight: 600; display: flex; justify-content: space-between; }
+.resume-build > p { font-size: 13px; color: #655e73; line-height: 1.8; }
+.resume-build .resume-build-stack { font: 9px monospace; letter-spacing: .4px; margin: 7px 0; color: #80718f; }
+.resume-sheet-footer { display: flex; justify-content: space-between; padding: 20px 44px; border-top: 1px solid #ded4eb; color: #80718f; font: 9px monospace; gap: 20px; }
+.resume-download-note { text-align: center; margin-top: 30px; }
+.resume-download-note p { font-size: 13px; color: #655e73; }
+.resume-download-note > span { font: 9px monospace; color: #80718f; }
+@media(max-width:1000px) {
+ .resume-sidebar { padding: 30px 22px; }
+ .resume-story { padding: 30px 26px; }
+ .resume-position > div { flex-direction: column; gap: 3px; }
+ .resume-position .resume-date { text-align: left; }
+}
+@media(max-width:650px) {
+ .resume-toolbar { align-items: start; flex-direction: column; gap: 20px; }
+ .resume-toolbar > div { width: 100%; justify-content: space-between; }
+ .resume-toolbar .button { gap: 20px; }
+ .resume-masthead { padding: 30px 24px; }
+ .resume-masthead h1 { font-size: 58px; letter-spacing: -3px; }
+ .resume-masthead h1 > span { font-size: 40px; }
+ .resume-role { font-size: 19px; }
+ .resume-lead { font-size: 14px; }
+ .resume-kicker { font-size: 8px; letter-spacing: 1px; }
+ .resume-body { grid-template-columns: 1fr; }
+ .resume-sidebar { padding: 26px 24px; }
+ .resume-skill-group { display: inline-block; width: 50%; vertical-align: top; padding-right: 10px; }
+ .resume-skill-group h2 { font-size: 14px; }
+ .resume-skill-group ul { font-size: 11px; }
+ .resume-years { margin-bottom: 20px; padding-bottom: 20px; }
+ .resume-years strong { font-size: 44px; }
+ .resume-story { padding: 30px 24px; }
+ .resume-sheet-footer { padding: 18px 24px; }
+ .resume-sheet-footer > span:last-child { display: none; }
+}
+@media print {
+ .resume-toolbar, .resume-download-note { display: none; }
+ .resume-page { padding: 0; }
+ .resume-sheet { box-shadow: none; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+ .resume-position, .resume-build { break-inside: avoid; }
+}

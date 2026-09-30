@@ -4,7 +4,7 @@ export default function ProjectDetail() {
   const { projectId } = useParams();
   const navigate = useNavigate();
 
-  const projectDetails: Record<string, any> = {
+  const projectDetails: Record<string, { title: string; subtitle: string; period: string; technologies: string[]; description: string; details: string[] }> = {
     p1: {
       title: "AI Song & Poem Generator",
       subtitle: "Creative AI Content Generation",
@@ -173,7 +173,7 @@ export default function ProjectDetail() {
   return (
     <section className="page-content">
       <button className="nav-back-button" onClick={() => navigate("/self")}>
-        /Self
+        ← All projects
       </button>
       <div className="project-detail">
         <h1 className="project-detail-title">{project.title}</h1>
@@ -187,10 +187,10 @@ export default function ProjectDetail() {
         >
           <h3>Technologies</h3>
           <div className="tech-list">
-            {project.technologies.map((t: string, idx: number) => (
+            {project.technologies.map((t: string) => (
               <span key={t} className="tech-badge">
                 {t}
-                {idx < project.technologies.length - 1 && ", "}
+
               </span>
             ))}
           </div>

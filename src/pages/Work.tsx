@@ -1,7 +1,7 @@
 export default function Work() {
   return (
     <section className="page-content">
-      <h1 className="page-title">My Work</h1>
+      <p className="eyebrow">THE STORY SO FAR / EXPERIENCE</p><h1 className="page-title">Built for <em>the real world.</em></h1><p className="page-intro">Enterprise engineering at Société Générale GSC. Reliable platforms, complex workflows, and a commitment to getting the foundations right.</p>
       <div className="work-content">
         <div className="work-item">
           <h2 className="work-project-title">MyCyberRisk Project</h2>
