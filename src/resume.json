@@ -8,14 +8,50 @@
   "company": "Société Générale GSC",
   "period": "November 2022 - Present",
   "skills": [
-    { "title": "Core technologies", "items": ["Java & Spring Boot", "React & TypeScript", "Python & FastAPI", "PostgreSQL & SQL", "JPA & MyBatis"] },
-    { "title": "Systems & delivery", "items": ["Docker & Kubernetes", "Jenkins & GitHub Actions", "RabbitMQ & Apache Airflow", "OAuth2 & Spring Security", "ELK / APM & SonarQube"] },
-    { "title": "AI engineering", "items": ["LangChain & ChromaDB", "Ollama & local LLMs", "RAG pipelines", "OpenAI APIs"] },
-    { "title": "Quality & testing", "items": ["JUnit & Mockito", "Jest & Cypress", "FitNesse", "CI/CD quality gates"] }
+    {
+      "title": "Core technologies",
+      "items": [
+        "Java & Spring Boot",
+        "React & TypeScript",
+        "Python & FastAPI",
+        "PostgreSQL & SQL",
+        "JPA & MyBatis"
+      ]
+    },
+    {
+      "title": "Systems & delivery",
+      "items": [
+        "Docker & Kubernetes",
+        "Jenkins & GitHub Actions",
+        "RabbitMQ & Apache Airflow",
+        "OAuth2 & Spring Security",
+        "ELK / APM & SonarQube"
+      ]
+    },
+    {
+      "title": "AI engineering",
+      "items": [
+        "LangChain & ChromaDB",
+        "Ollama & local LLMs",
+        "RAG pipelines",
+        "OpenAI APIs"
+      ]
+    },
+    {
+      "title": "Quality & testing",
+      "items": [
+        "JUnit & Mockito",
+        "Jest & Cypress",
+        "FitNesse",
+        "CI/CD quality gates"
+      ]
+    }
   ],
   "experience": [
     {
-      "title": "MyKRI", "subtitle": "Operational risk platform", "period": "February 2025 - Present",
+      "title": "MyKRI",
+      "subtitle": "Operational risk platform",
+      "period": "February 2025 - Present",
       "points": [
         "Built a distributed microservices platform for near-real-time monitoring of enterprise operational risk indicators.",
         "Developed Java, Spring Boot, PostgreSQL and MyBatis services for batch processing and complex aggregation workflows.",
@@ -24,7 +60,9 @@
       ]
     },
     {
-      "title": "MyCyberRisk", "subtitle": "Cybersecurity remediation platform", "period": "November 2022 - February 2025",
+      "title": "MyCyberRisk",
+      "subtitle": "Cybersecurity remediation platform",
+      "period": "November 2022 - February 2025",
       "points": [
         "Built a centralized platform to ingest, classify and remediate cybersecurity anomalies with end-to-end lifecycle visibility.",
         "Designed a metadata-driven workflow engine using a finite state machine, enabling new processes without code changes.",
@@ -34,12 +72,31 @@
     }
   ],
   "projects": [
-    { "name": "CreatorHub", "stack": "Java / Spring Boot / PostgreSQL", "description": "Secure social platform backend with JWT, Google OAuth, versioned migrations and paginated feeds.", "url": "https://github.com/sathyaprabhakara/CreatorHub" },
-    { "name": "AI Document Chatbot", "stack": "Python / LangChain / Ollama", "description": "Local PDF question answering with vector embeddings, ChromaDB retrieval and a FastAPI backend.", "url": "https://github.com/sathyaprabhakara/AI-Document-Chatbot" }
+    {
+      "name": "BangaloreByte",
+      "stack": "Python / FastAPI / Ollama / Redis",
+      "description": "Hyperlocal AI backend for Bengaluru city queries, with retrieval context, Redis caching and a React interface.",
+      "url": "https://github.com/sathyaprabhakara/BangloreByte"
+    },
+    {
+      "name": "AI Document Chatbot",
+      "stack": "Python / LangChain / Ollama",
+      "description": "Local PDF question answering with vector embeddings, ChromaDB retrieval and a FastAPI backend.",
+      "url": "https://github.com/sathyaprabhakara/AI-Document-Chatbot"
+    }
   ],
   "links": [
-    { "label": "Portfolio", "url": "https://sathyaprabhakara.github.io/sathya-portfolio/" },
-    { "label": "GitHub", "url": "https://github.com/sathyaprabhakara" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/sathyaprabhakara/" }
+    {
+      "label": "Portfolio",
+      "url": "https://sathyaprabhakara.github.io/sathya-portfolio/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/sathyaprabhakara"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sathyaprabhakara/"
+    }
   ]
 }

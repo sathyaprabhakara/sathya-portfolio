@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../projects';
-const categories = ['All projects', 'Full-stack', 'AI engineering', 'Mobile'];
+const categories = ['All projects', ...new Set(projects.map(project => project.category))];
 export default function Self() {
  const [filter, setFilter] = useState('All projects');
  const visible = projects.filter(p => filter === 'All projects' || p.category === filter);

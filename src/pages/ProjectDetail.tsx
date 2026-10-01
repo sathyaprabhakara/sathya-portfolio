@@ -1,3 +1,4 @@
+import Icon from '../components/Icon';
 import { useParams, useNavigate } from "react-router-dom";
 
 export default function ProjectDetail() {
@@ -78,32 +79,6 @@ export default function ProjectDetail() {
         "Optimized application performance and state management using <strong>React Context</strong> and <strong>AsyncStorage</strong> for low-latency local data handling, while designing a modular architecture ready for <strong>Firebase</strong> backend integration and global scaling.",
       ],
     },
-    p4: {
-      title: "CreatorHub",
-      subtitle: "Production-Ready Social Backend",
-      period: "2025",
-      technologies: [
-        "Java 17",
-        "Spring Boot",
-        "Spring Security",
-        "JWT",
-        "Google OAuth",
-        "BCrypt",
-        "PostgreSQL",
-        "Liquibase",
-        "Maven",
-        "Lombok",
-      ],
-      description:
-        "A production-ready backend powering a social content platform with secure authentication, post management, and real-time interactions.",
-      details: [
-        "Engineered a secure authentication system using <strong>Spring Security and JWT</strong>, supporting email/password login and <strong>Google OAuth</strong> via ID tokens with <strong>BCrypt</strong> password hashing and access/refresh token session management.",
-        "Architected a clean layered backend with controller, service, repository, DTO, and exception handling layers, ensuring modularity, testability, and long-term maintainability.",
-        "Implemented a <strong>PostgreSQL</strong> database with <strong>Liquibase</strong> for schema versioning and migration control, ensuring reliable and auditable database evolution across environments.",
-        "Developed core social platform features including image-upload posts, paginated feeds, likes, and comments — all secured behind authenticated API routes.",
-        "Optimized feed and comment scalability using pagination support, with <strong>Maven</strong> managing builds and <strong>Lombok</strong> reducing boilerplate across the codebase.",
-      ],
-    },
     p5: {
       title: "BangaloreByte",
       subtitle: "Hyperlocal City Intelligence API",
@@ -173,7 +148,7 @@ export default function ProjectDetail() {
   return (
     <section className="page-content">
       <button className="nav-back-button" onClick={() => navigate("/self")}>
-        ← All projects
+        <Icon name="arrow-left" /> All projects
       </button>
       <div className="project-detail">
         <h1 className="project-detail-title">{project.title}</h1>
@@ -237,8 +212,6 @@ export default function ProjectDetail() {
                 ? "https://github.com/sathyaprabhakara/AI-News-Agent"
                 : projectId === "p3"
                 ? "https://github.com/sathyaprabhakara/LifeLoop"
-                : projectId === "p4"
-                ? "https://github.com/sathyaprabhakara/CreatorHub"
                 : projectId === "p5"
                 ? "https://github.com/sathyaprabhakara/BangloreByte"
                 : projectId === "p6"

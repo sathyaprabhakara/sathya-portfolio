@@ -1,3 +1,4 @@
+import Icon from '../components/Icon';
 import resume from '../resume.json';
 import './Resume.css';
 
@@ -9,15 +10,15 @@ export default function Resume() {
       <div className="resume-toolbar">
         <span className="eyebrow">THE DETAILS / RÉSUMÉ</span>
         <div>
-          <a className="resume-preview-link" href={pdfUrl} target="_blank" rel="noreferrer">View PDF ↗</a>
-          <a className="button" href={pdfUrl} download="Sathya_Resume.pdf">Download résumé <span aria-hidden="true">↓</span></a>
+          <a className="resume-preview-link" href={pdfUrl} target="_blank" rel="noreferrer">View PDF <Icon name="arrow-up-right" /></a>
+          <a className="button" href={pdfUrl} download="Sathya_Resume.pdf">Download résumé <span aria-hidden="true"><Icon name="arrow-down" /></span></a>
         </div>
       </div>
 
       <article className="resume-sheet">
         <header className="resume-masthead">
           <p className="resume-kicker">ENGINEERING / FULL-STACK / AI</p>
-          <h1 id="resume-name">{resume.name}<span aria-hidden="true">✳</span></h1>
+          <h1 id="resume-name">{resume.name}<span aria-hidden="true"><Icon name="spark" /></span></h1>
           <p className="resume-role">{resume.role}</p>
           <p className="resume-lead">{resume.summary}</p>
         </header>
@@ -29,7 +30,7 @@ export default function Resume() {
               <h2><span>Contact</span></h2>
               <p>{resume.location}</p>
               <a href={`mailto:${resume.email}`}>{resume.email}</a>
-              <div className="resume-profile-links">{resume.links.map(link => <a key={link.label} href={link.url} target="_blank" rel="noreferrer">{link.label} <span aria-hidden="true">↗</span></a>)}</div>
+              <div className="resume-profile-links">{resume.links.map(link => <a key={link.label} href={link.url} target="_blank" rel="noreferrer">{link.label} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></a>)}</div>
             </section>
             {resume.skills.map(group => <section className="resume-skill-group" key={group.title}><h2>{group.title}</h2><ul>{group.items.map(item => <li key={item}>{item}</li>)}</ul></section>)}
           </aside>
@@ -42,7 +43,7 @@ export default function Resume() {
             </section>
             <section className="resume-selected" aria-labelledby="projects-heading">
               <h2 id="projects-heading" className="resume-section-heading"><span>Selected projects</span><span className="resume-section-index">02</span></h2>
-              {resume.projects.map(project => <div className="resume-build" key={project.name}><a href={project.url} target="_blank" rel="noreferrer">{project.name} <span aria-hidden="true">↗</span></a><p className="resume-build-stack">{project.stack}</p><p>{project.description}</p></div>)}
+              {resume.projects.map(project => <div className="resume-build" key={project.name}><a href={project.url} target="_blank" rel="noreferrer">{project.name} <span aria-hidden="true"><Icon name="arrow-up-right" /></span></a><p className="resume-build-stack">{project.stack}</p><p>{project.description}</p></div>)}
             </section>
           </div>
         </div>
